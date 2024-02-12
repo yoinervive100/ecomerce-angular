@@ -1,0 +1,32 @@
+.bg_fonfo{
+    padding: 2vh 4.5vh;
+}
+.bg_mov{
+    background-image: url(/assets/img/image-blog/hero-blog.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+.bg_container{
+    padding: 9vh 9vh;
+}
+h3{
+    font-size: 8vh;
+}
+p{
+    font-size: 5vh;
+}
+.container_text h3{
+    font-size: 5vh;
+    color: rgba(52, 201, 221, 1);
+}
+.container_title h3{
+    color: black;
+}
+.container_parrafo p{
+ font-size: 3vh;
+}
+.container_blog img{
+    height: 60vh;
+}
