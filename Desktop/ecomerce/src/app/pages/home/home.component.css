@@ -1,0 +1,129 @@
+.present_conte{
+    padding: 2vh 4.5vh;
+}
+.prensent_img{
+    background: url(/assets/img/image-home/img-prensent.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+h3{
+    font-size: 8vh;
+}
+p{
+    font-size: 5vh;
+}
+div .button{
+    padding: 1vh 1.5vh;
+    text-align: center;
+    border: none;
+    font-size: 2.5vh;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+div .button:hover{
+    color: white;
+    background: rgba(52, 201, 221, 1);
+}
+.all_product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8vh 0;
+}
+.carts_grid{
+    display: flex;
+    flex-direction: column;
+}
+.all_conte{
+    padding: 4vh;
+}
+.all_carts{
+    display: flex;
+    flex-direction: column;
+}
+.prensent_contenido{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding: 5vh 3.5vh;
+}
+.all_conte h3{
+   color: rgba(52, 201, 221, 1);
+   font-size: 5vh;
+}
+.carts_precio{
+    display: flex;
+    align-items: center;
+    gap: 15vh;
+    padding: 2vh 0;
+}
+.all_carts p{
+    font-size: 3.5vh;
+}
+    
+.all_carts .img-carts{
+     height: 40vh;
+     transition: all;
+}
+.all_carts .img-carts:hover{
+     scale: 1.1;
+     cursor: pointer;
+}
+.carts_img img{
+    height: 3vh;
+}
+.all_carts  .img-carts{
+    height: 48vh;
+}
+.all_carts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5vh;
+}
+.img_color{
+    background-color: rgba(235, 235, 235, 0.63);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img_picture{
+    display: flex;
+    gap: 3vh;
+    padding: 8vh 0;
+}
+.img_picture img{
+    height: 60vh;
+}
+.title_til h3{
+    color: rgba(52, 201, 221, 1);
+    font-size: 5vh;
+    text-align: center;
+    padding: 5vh;
+}
+.img_stoc{
+    display: flex;
+    gap: 6vh;
+    padding-bottom: 5vh;
+}
+.img_stoc img{
+    height: 44vh;
+}
+.img_collar{
+    width: 40vh;
+    height: 40vh;
+}
+.logo_container{
+    display: flex;
+    align-items: center;
+    gap: 5vh;
+    justify-content: center;
+    padding: 8vh 0;
+}
+.logo_container img{
+  height: 10vh;
+}
+

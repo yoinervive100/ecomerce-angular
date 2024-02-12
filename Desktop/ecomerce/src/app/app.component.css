@@ -1,0 +1,29 @@
+span{
+    color: rgba(52, 201, 221, 1);
+}
+h1{
+    font-size: 4vh;
+}
+.content_logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 4.5vh;
+}
+a{
+    font-size: 2.5vh;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+a:hover{
+    color: rgba(52, 201, 221, 1); 
+}
+nav{
+  display: flex;
+  gap: 3vh;
+}
+picture img{
+    height: 4vh;
+    padding: 0 2vh;
+}

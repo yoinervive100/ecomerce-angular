@@ -1,0 +1,89 @@
+<app-header/>
+<div class="present_conte" >
+    <div class="prensent_img" >
+        <div class="prensent_contenido" >
+            <h3>Listen To Music</h3>
+            <div>
+                <p>With the new headphones you can enjoy a sound <br>
+                   professional
+                </p>
+            </div>
+            <div>
+                <button class="button" >see product</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="all_product" >
+    <div class="all_conte" >
+        <h3>ALL PRODUCTS</h3>
+    </div>
+    <div class="all_tarjeta" >
+        <div class="all_carts" >
+            @for(os of carts; track os.id ){
+                <div class="carts_grid" >
+                    <picture>
+                        <img  class="img-carts" src={{os.URL}} alt="">
+                    </picture>
+                    <div class="cart_prens" >
+                      <div class="carts_name" >
+                          <p> {{os.name}} </p>
+                       </div>
+                       <div class="carts_precio" >
+                          <div class="carts_img" >
+                              <img src="/assets/img/image-home/icon-estrella.png" alt="">
+                              <img src="/assets/img/image-home/icon-estrella.png" alt="">
+                              <img src="/assets/img/image-home/icon-estrella.png" alt="">
+                              <img src="/assets/img/image-home/icon-estrella.png" alt="">
+                              <img src="/assets/img/image-home/icon-estrella.png" alt="">
+                          </div>
+                          <div class="precio" >
+                              <p> {{os.precio}} </p>
+                          </div>
+                       </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<div  class="title_til">
+ <h3>Collary</h3>
+</div>
+<section class="img_mov" >
+   <div class="img_color" >
+      <div class="img_picture" >
+         <picture>
+            <img src="/assets/img/image-home/image-collar.png" alt="">
+         </picture>
+         <picture>
+            <img src="/assets/img/image-home/image-collar2.png" alt="">
+         </picture>
+      </div>
+      <div  class="img_stoc" >
+         <picture>
+             <img src="/assets/img/image-home/image-collar3.png" alt="">
+         </picture>
+         <picture>
+            <img src="/assets/img/image-home/image-collar4.png" alt="">
+         </picture>
+         <picture>
+            <img class="img_collar" src="/assets/img/image-home/image-collar5.jpg" alt="">
+         </picture>
+      </div>
+   </div> 
+</section>
+<div class="logo_empresa" >
+    <div class="logo_container" >
+        <picture>
+            <img src="/assets/img/image-home/image-samsung.png" alt="">
+        </picture>
+        <picture>
+            <img src="/assets/img/image-home/image-sony.png" alt="">
+        </picture>
+        <picture>
+            <img src="/assets/img/image-home/image-apple.png" alt="">
+        </picture>
+    </div>
+</div>
+<app-footer/>
