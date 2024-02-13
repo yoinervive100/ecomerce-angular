@@ -32,8 +32,8 @@ p{
 }
 .container_blog img{
     height: 50vh;
-    border-radius: 4px;
 }
+
 .container_history{
 display: flex;
 }
@@ -68,4 +68,18 @@ display: flex;
     text-align: center;
     font-size: 5vh;
     color: rgba(52, 201, 221, 1);
+    padding: 2vh;
+}
+.gallery_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6vh;
+    padding-bottom: 2vh;
+}
+.gallery_image img{
+    height: 50vh;
+}
+.gallery_cont{
+    background-color: rgba(235, 235, 235, 0.63);
 }
