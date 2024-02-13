@@ -68,18 +68,35 @@ display: flex;
     text-align: center;
     font-size: 5vh;
     color: rgba(52, 201, 221, 1);
-    padding: 2vh;
+    padding: 3vh;
 }
 .gallery_image{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 6vh;
-    padding-bottom: 2vh;
+    padding: 4vh 0;
 }
 .gallery_image img{
     height: 50vh;
 }
 .gallery_cont{
     background-color: rgba(235, 235, 235, 0.63);
+}
+.container_ava{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0;
+}
+.container_ava img{
+    height: 12vh;
+}
+.container_ava p{
+  font-size: 4vh;
+}
+.avatar_testi p{
+    font-size: 3vh;
+    text-align: center;
 }
