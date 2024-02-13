@@ -1,0 +1,19 @@
+.bg_text{
+    background-image: url(/assets/img/img-about/hero-about.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+h3{
+    font-size: 8vh;
+}
+p{
+    font-size: 5vh;
+}
+.bg_fondo{
+    padding: 2vh 4.5vh;
+}
+.bg_text{
+    padding: 9vh 9vh;
+}

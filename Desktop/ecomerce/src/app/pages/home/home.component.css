@@ -48,7 +48,7 @@ div .button:hover{
     display: flex;
     flex-direction: column;
     gap: 2vh;
-    padding: 5vh 3.5vh;
+    padding: 9vh 9vh;
 }
 .all_conte h3{
    color: rgba(52, 201, 221, 1);
