@@ -17,3 +17,36 @@ p{
 .bg_text{
     padding: 9vh 9vh;
 }
+.super_button{
+    padding: 2vh 0;
+}
+div .button{
+    padding: 1vh 1.5vh;
+    text-align: center;
+    border: none;
+    font-size: 2.5vh;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+div .button:hover{
+    color: white;
+    background: rgba(52, 201, 221, 1);
+}
+.cont_conte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+    gap: 5vh;
+    padding-bottom: 9vh;
+}
+.cont_conte p{
+    font-size: 4vh;
+}
+.cont_conte img{
+ height: 50vh;
+}
+.cont_title h3{
+    font-size: 5vh;
+}

@@ -48,7 +48,7 @@ div .button:hover{
     display: flex;
     flex-direction: column;
     gap: 2vh;
-    padding: 9vh 9vh;
+    padding: 7vh 9vh;
 }
 .all_conte h3{
    color: rgba(52, 201, 221, 1);
@@ -125,5 +125,8 @@ div .button:hover{
 }
 .logo_container img{
   height: 10vh;
+}
+.img_logoti img{
+    height: 6vh;
 }
 
